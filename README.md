@@ -2,7 +2,7 @@
 
 This repository contains de-identified example data and resources for assessing the reproducibility of resting-state fMRI (rs-fMRI) scans in Parkinson's patients who are receiving deep brain stimulation (DBS) therapy. It includes code and patient-derived, de-identified data for analysis and processing. The repository is part of ongoing research in the Radiology-Morrison-lab-UCSF.
 
-## Contents
+## Contents (coming soon)
 - **`AdvMRIforDBS_InternalProtocol.pdf`**:
   - Advanced MRI for DBS: Internal UCSF Protocol for 3T Brain MRI with DBS implant.
 - **`Subject_Demographics.xlsx`**:
