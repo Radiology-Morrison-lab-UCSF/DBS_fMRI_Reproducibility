@@ -27,7 +27,8 @@ This repository will soon include:
 - **`TestRetest_DBStrajectory_Spatialmap.m`**:
    - Code to create a map of DBS electrode spatial trajectories and identify intersecting brain regions using T1-weighted MRI scans and rs-fMRI scans.
 - **`TestRetest_Analyses.m`**:
-   - Code to replicate all analyses performed in the lab's paper, "Test-retest reliability of resting-state functional magnetic resonance imaging during deep brain stimulation for Parkinson’s disease: an open-source dataset".- **Data**:
+   - Code to replicate all analyses performed in the lab's paper, "Test-retest reliability of resting-state functional magnetic resonance imaging during deep brain stimulation for Parkinson’s disease: an open-source dataset".
+- **Data**:
   - All de-identified MRI scans and associated metadata will be made publicly available through [OpenNeuro](https://openneuro.org/) upon completion of ongoing analyses.
 
 ## License
