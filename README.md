@@ -5,7 +5,7 @@ This repository contains de-identified example data and resources for assessing 
 ## Contents 
 - **`AdvMRIforDBS_InternalProtocol.pdf`**:
   - Advanced MRI for DBS: Internal UCSF Protocol for 3T Brain MRI with DBS implant.
-- **`MDSUPDRS_Scores_Template.xlsx`**:
+- **`MDS-UPDRS_Scores_Template.xlsx`**:
    - ​An Excel template demonstrating MDS-UPDRS score calculations with dummy data. ​
 - **`atlases`**:
   - A folder containing atlas files and their adjoining ROI text files for region identification.
