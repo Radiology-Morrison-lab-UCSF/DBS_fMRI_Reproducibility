@@ -11,7 +11,7 @@ This repository contains de-identified example data and resources for assessing 
    - ​An Excel template demonstrating MDS-UPDRS score calculations with dummy data. ​
 - **`ROIs.xlsx`**:
    - A list of ROIs used for the whole brain, motor, limbic, and associative networks.
-- **`Atlases`**:
+- **`atlases`**:
     - A folder containing atlas files and their adjoining ROI text files for region identification.
 - **`FC_BV_Data`**:
     - A folder containing all of our functional connectivity (FC) and brain variability (bv) data as .mat files.
