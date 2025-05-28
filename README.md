@@ -3,6 +3,14 @@
 This repository contains de-identified example data and resources for assessing the reproducibility of resting-state fMRI (rs-fMRI) scans in Parkinson's patients who are receiving deep brain stimulation (DBS) therapy. It includes code and patient-derived, de-identified data for analysis and processing. The repository is part of ongoing research in the Radiology-Morrison-lab-UCSF.
 
 ## Contents 
+
+- **`testretest_ICC.m`**:
+   - Code to calculate intraclass correlation coefficient (ICC) values between test and retest resting-state fMRI scans using functional connectivity and brain variability data, as well as corresponding statistical analyses in the lab's paper, "Test-retest reliability of resting-state functional magnetic resonance imaging during deep brain stimulation for Parkinson’s disease: an open-source dataset". This script works in conjunction with the ICC function (Salarian 2024): https://www.mathworks.com/matlabcentral/fileexchange/22099-intraclass-correlation-coefficient-icc .
+- **`testretest_ICC_affectedunaffected.m`**:
+   - Code to create a map of DBS electrode spatial trajectories and identify intersecting brain regions using T1-weighted MRI scans and rs-fMRI scans. Once intersecting regions are identified, the code calculates ICC values between test and retest resting-state fMRI scans of two subsets of brain regions: those affected by the electrode and those unaffected. Finally, the code conducts corresponding analyses in the lab's paper, "Test-retest reliability of resting-state functional magnetic resonance imaging during deep brain stimulation for Parkinson’s disease: an open-source dataset". 
+- **`TestRetest_ICC_betweensessions.m`**:
+   - Code to calculate ICC values between longitudinal test and retest resting-state fMRI scans, as well as conduct corresponding analyses from the lab's paper, "Test-retest reliability of resting-state functional magnetic resonance imaging during deep brain stimulation for Parkinson’s disease: an open-source dataset".
+
 - **`AdvMRIforDBS_InternalProtocol.pdf`**:
   - Advanced MRI for DBS: Internal UCSF Protocol for 3T Brain MRI with DBS implant.
 - **`MDS-UPDRS_Scores_Template.xlsx`**:
@@ -11,23 +19,13 @@ This repository contains de-identified example data and resources for assessing 
   - A folder containing atlas files and their adjoining ROI text files for region identification.
 - **`otsu-segmentation`**:
   - A folder containing code to run Otsu's method for image thresholding.
-
-## Future Additions
-This repository will soon include:
 - **`FC_BV_Data`**:
-    - A folder containing all of our functional connectivity (FC) and brain variability (bv) data as .mat files.
+    - A folder containing all of our functional connectivity (FC) and brain variability (BV) data as Excel files.
 - **`Subject_Demographics.xlsx`**:
-    - An excel sheet containing cross-sectional patient data, including demographics, DBS specifications, Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) sub-scores, and Levodopa Equivalent Daily Dose (LEDD) scores.
+    - An Excel sheet containing cross-sectional patient data, including demographics, DBS specifications, Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) sub-scores, and Levodopa Equivalent Daily Dose (LEDD) scores.
 - **`ROIs.xlsx`**:
    - A list of ROIs used for the whole brain, motor, limbic, and associative networks.
-- **`TestRetest_Make_Connectomes.m`**: 
-  - Code to extract functional connectivity and brain variability data from preprocessed and denoised rs-fMRI data.
-- **`TestRetest_ICC.m`**:
-   - Code to calculate intraclass correlation coefficient (ICC) values between test and retest resting-state fMRI scans using on functional connectivity and brain variability data. This script works in conjunction with the ICC function (Salarian 2024): https://www.mathworks.com/matlabcentral/fileexchange/22099-intraclass-correlation-coefficient-icc .
-- **`TestRetest_DBStrajectory_Spatialmap.m`**:
-   - Code to create a map of DBS electrode spatial trajectories and identify intersecting brain regions using T1-weighted MRI scans and rs-fMRI scans.
-- **`TestRetest_Analyses.m`**:
-   - Code to replicate all analyses performed in the lab's paper, "Test-retest reliability of resting-state functional magnetic resonance imaging during deep brain stimulation for Parkinson’s disease: an open-source dataset".
+
 - **Data**:
   - All de-identified MRI scans and associated metadata will be made publicly available through [OpenNeuro](https://openneuro.org/) upon completion of ongoing analyses.
 
