@@ -1165,10 +1165,10 @@ for i=1:4
     set(gcf,'color','w');
     fc=squeeze(fcs_motor_2(pt_ID_outliermotorICC,:,:,:)); %avg across selected patients
     imagesc(squeeze(fc(i,:,:))); %plots only one run at a time
-    set(gca,'XTickLabel',corrname,'XTickLabelRotation',50);
-    set(gca,'YTickLabel',corrname);
-    set(gca, 'XTick', (1:length(corrname)), 'FontSize', 12);
-    set(gca, 'YTick', (1:length(corrname)), 'FontSize',12);
+    set(gca,'XTickLabel',corrname_motor_reordered,'XTickLabelRotation',50);
+    set(gca,'YTickLabel',corrname_motor_reordered);
+    set(gca, 'XTick', (1:length(corrname_motor_reordered)), 'FontSize', 12);
+    set(gca, 'YTick', (1:length(corrname_motor_reordered)), 'FontSize',12);
     grid off
     box off
     colormap("parula");
