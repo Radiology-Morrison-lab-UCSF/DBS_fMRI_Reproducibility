@@ -36,7 +36,7 @@ This repository contains de-identified example data and resources for assessing 
 ## License
 - Copyright 2025 UCSF
 - Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
-- **`FC_BV_Data`** and **`Subject_Demographics.xlsx`** were acquired at the University of California San Francisco and are licensed under the CC BY-NC 4.0 license
+- **`FC_BV_Data`** and **`testretest_demographics.xlsx`** were acquired at the University of California San Francisco and are licensed under the CC BY-NC 4.0 license
 
 ## Acknowledgments
 This project is part of ongoing research in the Radiology-Morrison-lab-UCSF. Special thanks to all contributors and collaborators involved in this work.
