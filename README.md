@@ -11,7 +11,7 @@ This repository contains de-identified example data and resources for assessing 
 - **`TestRetest_ICC_betweensessions.m`**:
    - Code to calculate ICC values between longitudinal test and retest resting-state fMRI scans, as well as conduct corresponding analyses from the lab's paper, "Test-retest reliability of resting-state functional magnetic resonance imaging during deep brain stimulation for Parkinson’s disease: an open-source dataset".
 - **`testretest_makeconnectomes.m`**:
-   - Code __________ as well as conduct corresponding analyses from the lab's paper, "Test-retest reliability of resting-state functional magnetic resonance imaging during deep brain stimulation for Parkinson’s disease: an open-source dataset".
+   - Code to calculate functional connectivity and brain variability values, as well as conduct corresponding analyses from the lab's paper, "Test-retest reliability of resting-state functional magnetic resonance imaging during deep brain stimulation for Parkinson’s disease: an open-source dataset".
 
 - **`AdvMRIforDBS_InternalProtocol.pdf`**:
   - Advanced MRI for DBS: Internal UCSF Protocol for 3T Brain MRI with DBS implant.
