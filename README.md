@@ -17,16 +17,18 @@ This repository contains de-identified example data and resources for assessing 
   - Advanced MRI for DBS: Internal UCSF Protocol for 3T Brain MRI with DBS implant.
 - **`MDS-UPDRS_Scores_Template.xlsx`**:
    - ​An Excel template demonstrating MDS-UPDRS score calculations with dummy data. ​
+- **`testretest_ROIs.xlsx`**:
+   - A list of ROIs used for the whole brain, motor, limbic, and associative networks.
+- **`testretest_demographics.xlsx`**:
+    - An Excel sheet containing cross-sectional patient data, including demographics, DBS specifications, Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) sub-scores, and Levodopa Equivalent Daily Dose (LEDD) scores.-
+- **`FC_BV_Data`**:
+    - A folder containing all of our functional connectivity (FC) and brain variability (BV) data as Excel files.
 - **`atlases`**:
   - A folder containing atlas files and their adjoining ROI text files for region identification.
 - **`otsu-segmentation`**:
   - A folder containing code to run Otsu's method for image thresholding.
-- **`FC_BV_Data`**:
-    - A folder containing all of our functional connectivity (FC) and brain variability (BV) data as Excel files.
-- **`Subject_Demographics.xlsx`**:
-    - An Excel sheet containing cross-sectional patient data, including demographics, DBS specifications, Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) sub-scores, and Levodopa Equivalent Daily Dose (LEDD) scores.
-- **`ROIs.xlsx`**:
-   - A list of ROIs used for the whole brain, motor, limbic, and associative networks.
+
+
 
 - **Data**:
   - All de-identified MRI scans and associated metadata will be made publicly available through [OpenNeuro](https://openneuro.org/) upon completion of ongoing analyses.
