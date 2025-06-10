@@ -21,7 +21,7 @@ This repository contains de-identified example data and resources for assessing 
 - **`testretest_demographics.xlsx`**:
     - An Excel sheet containing cross-sectional patient data, including demographics, DBS specifications, Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) sub-scores, and Levodopa Equivalent Daily Dose (LEDD) scores.-
 - **`FC_BV_Data`**:
-    - A folder containing all of our functional connectivity (FC) and brain variability (BV) data as Excel files.
+    - A folder containing all of our functional connectivity (FC) and brain variability (BV) data as .mat files.
 - **`atlases`**:
   - A folder containing atlas files and their adjoining ROI text files for region identification.
 - **`otsu-segmentation`**:
