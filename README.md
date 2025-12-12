@@ -12,7 +12,7 @@ This repository contains de-identified example data and resources for assessing 
 - **`testretest_makeconnectomes.m`**:
    - Code to calculate functional connectivity AND brain variability values, as well as conduct corresponding analyses from the lab's paper, "Test-retest reliability of resting-state functional magnetic resonance imaging during deep brain stimulation for Parkinson’s disease".
 
-- **`AdvMRIforDBS_InternalProtocol.pdf`**:
+- **`AdvMRIforDBS_InternalProtocol--2025.pdf`**:
   - Advanced MRI for DBS: Internal UCSF Protocol for 3T Brain MRI with DBS implant.
 - **`MDS-UPDRS_Scores_Template.xlsx`**:
    - ​An Excel template demonstrating MDS-UPDRS score calculations with dummy data. ​
