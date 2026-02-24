@@ -30,7 +30,7 @@ This repository contains de-identified example data and resources for assessing 
 
 
 - **Data**:
-  - All de-identified MRI scans and associated metadata will be made publicly available through [OpenNeuro](https://openneuro.org/) upon completion of ongoing analyses.
+  - All de-identified MRI scans and associated metadata will be made publicly available through [OpenNeuro](doi:10.18112/openneuro.ds005906.v1.0.5) upon completion of ongoing analyses.
 
 ## License
 - Copyright 2025 UCSF
