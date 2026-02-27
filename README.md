@@ -1,6 +1,8 @@
 # DBS fMRI Reproducibility Repository
 
 This repository contains de-identified example data and resources for assessing the reproducibility of resting-state fMRI (rs-fMRI) scans in Parkinson's patients who are receiving deep brain stimulation (DBS) therapy. It includes code and patient-derived, de-identified data for analysis and processing. The repository is part of ongoing research in the Radiology-Morrison-lab-UCSF.
+
+We kindly ask that you cite our article when using materials from this repository: Deutsch S. and Mehta J. et al. Test-retest reliability of resting-state functional magnetic resonance imaging during deep brain stimulation for Parkinson’s disease. NeuroImage: Clinical, Volume 49 (2026). https://doi.org/10.1016/j.nicl.2026.103973.
 ## Contents 
 
 - **`testretest_ICC.m`**:
